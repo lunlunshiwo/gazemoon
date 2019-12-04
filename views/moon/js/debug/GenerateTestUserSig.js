@@ -23,7 +23,7 @@ function genTestUserSig (userID) {
    * 进入腾讯云实时音视频[控制台](https://console.cloud.tencent.com/rav ) 创建应用，即可看到 SDKAppId，
    * 它是腾讯云用于区分客户的唯一标识。
    */
-  const SDKAPPID = 1400291184;
+  const SDKAPPID = '';
   /**
    * 签名过期时间，建议不要设置的过短
    * <p>
@@ -43,7 +43,7 @@ function genTestUserSig (userID) {
    * 文档：https://cloud.tencent.com/document/product/647/17275#Server
    */
   const SECRETKEY =
-    'b4c0d0944a8b21e86119b757315b579eca235eb3c28e5d96139bf257f4519d2c';
+    '';
 
   // a soft reminder to guide developer to configure sdkAppId/secretKey
   if (SDKAPPID === '' || SECRETKEY === '') {
